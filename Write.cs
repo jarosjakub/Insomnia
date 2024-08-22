@@ -62,7 +62,7 @@ namespace Insomnia
             var sim = new InputSimulator();
 
             System.Threading.Thread.Sleep(2000);
-            IntPtr hWnd = FindWindow(null, "insomnia.txt - Notepad");
+            IntPtr hWnd = FindWindow(null, "insomnia.txt - Notepad++");
 
             if (hWnd == IntPtr.Zero)
             {
